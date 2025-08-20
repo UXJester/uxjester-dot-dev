@@ -21,7 +21,7 @@ export default function About() {
         </span>
         Hey — I’m Bryan. I build things for the web, lead with curiosity, and
         believe the best teams are the ones that feel like family. Over the last
-        15 years, I’ve gone from surveying runways in the Air Force to
+        20 years, I’ve gone from surveying runways in the Air Force to
         delivering high‑performance, user‑friendly web apps for organizations
         big and small. Along the way I’ve learned that precision matters, but so
         does laughter in a stand‑up and knowing when to swap curly braces for a
@@ -43,7 +43,7 @@ export default function About() {
           Combat Veterans Motorcycle Association<sup aria-hidden="true">®</sup>
         </span>
         , raising a little noise (and money) for causes that matter, or
-        shuttling my kids to and from activities. Whether it’s on two wheels or
+        chauffeuring my kids between activities. Whether it’s on two wheels or
         in a design review, I’m here for the ride, the craft, and the community
         that comes with both.
       </p>

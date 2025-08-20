@@ -23,8 +23,8 @@ export default function Home() {
           <div className="relative w-full translate-x-3 -translate-y-1 scale-105 rotate-12 overflow-hidden rounded-lg bg-white p-3 pb-6 shadow-md transition-transform hover:z-10 hover:scale-115 hover:rotate-6">
             <div className="relative aspect-[3/2] w-full overflow-hidden bg-gray-50">
               <Image
-                src="/images/mil.jpg"
-                alt="Placeholder 1"
+                src="/images/Gulley_Horseface.jpg"
+                alt="Bryan at a workstation with a horse face mask"
                 fill
                 sizes="(max-width: 768px) 50vw, 25vw"
                 className="object-cover object-center"
@@ -36,7 +36,7 @@ export default function Home() {
             <div className="relative aspect-[3/2] w-full overflow-hidden bg-gray-50">
               <Image
                 src="/images/bike.jpg"
-                alt="Bike"
+                alt="Bryan's Harley Davidson motorcycle"
                 fill
                 sizes="(max-width: 768px) 50vw, 25vw"
                 className="object-cover object-center"
@@ -48,7 +48,7 @@ export default function Home() {
             <div className="relative aspect-[3/2] w-full overflow-hidden bg-gray-50">
               <Image
                 src="/images/love.jpg"
-                alt="Placeholder 3"
+                alt="Bryan and his wife"
                 fill
                 sizes="(max-width: 768px) 50vw, 25vw"
                 className="object-cover object-center"
@@ -59,8 +59,8 @@ export default function Home() {
           <div className="relative w-full -translate-x-2 -translate-y-1 scale-108 rotate-4 overflow-hidden rounded-lg bg-white p-3 pb-6 shadow-lg transition-transform hover:z-10 hover:scale-118 hover:-rotate-1">
             <div className="relative aspect-[3/2] w-full overflow-hidden bg-gray-50">
               <Image
-                src="/images/Gulley_Horseface.jpg"
-                alt="Placeholder 4"
+                src="/images/mil.jpg"
+                alt="Bryan in front of a Blackhawk helicopter in Iraq"
                 fill
                 sizes="(max-width: 768px) 50vw, 25vw"
                 className="object-cover object-center"
@@ -69,10 +69,11 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="mt-8 flex min-h-[300px] w-full flex-1 items-center justify-center rounded-lg border-2 border-dashed border-slate-400 bg-slate-50/30">
-        <p className="text-lg font-medium text-slate-600">
+      <div className="relative mt-8 flex w-full flex-1 items-center justify-center rounded-lg border-2 border-dashed border-slate-400 bg-slate-50/30 sm:min-h-60">
+        <p className="p-4 text-center text-lg font-medium text-slate-600">
           I&apos;m still deciding what should go here
         </p>
+        <div className="absolute inset-0 w-full rounded-lg bg-[url('/images/icons.png')] bg-size-[115%] bg-center bg-no-repeat opacity-20"></div>
       </div>
     </section>
   );

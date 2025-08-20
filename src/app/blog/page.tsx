@@ -6,10 +6,10 @@ export default function Blog() {
 
   return (
     <section className="mx-auto max-w-4xl px-4" aria-labelledby="blog-heading">
-      <h1 id="blog-heading" className="text-4xl font-bold">
+      <h2 id="blog-heading" className="text-3xl font-bold">
         Blogs
-      </h1>
-      <div className="mt-8 max-w-4xl">
+      </h2>
+      <div className="mt-6 max-w-4xl">
         <p className="mb-8 text-lg">
           Welcome to my blog! Here I share insights on front-end development,
           personal projects, and more.

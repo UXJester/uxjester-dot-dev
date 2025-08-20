@@ -1,6 +1,6 @@
 export const Footer = () => {
   return (
-    <footer className="relative z-10 mx-auto mt-auto flex w-full max-w-5xl items-center justify-between bg-white p-4 text-sm shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] *:text-gray-600">
+    <footer className="relative z-10 mx-auto mt-auto flex w-full max-w-5xl flex-col items-center justify-between bg-white p-4 text-sm shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] *:text-gray-600 sm:flex-row">
       <div className="flex items-center gap-4">
         <a
           href="mailto:bryan.j.gulley@gmail.com"
@@ -58,7 +58,7 @@ export const Footer = () => {
         </a>
       </div>
 
-      <div>
+      <div className="mt-2 text-center text-gray-500 sm:mt-0">
         © {new Date().getFullYear()} Bryan Gulley. All rights reserved.
       </div>
     </footer>
